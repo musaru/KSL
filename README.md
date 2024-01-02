@@ -1,13 +1,14 @@
 # KSL
-Dynamic Korean Sign Language Recognition Using Pose Estimation Based and Attention-Based Neural Network"
-Abstract:
+**Dynamic Korean Sign Language Recognition Using Pose Estimation Based and Attention-Based Neural Network"**
+##Abstract:
 Sign language recognition is crucial for improving communication accessibility for the hearing impaired community and reducing dependence on human interpreters. Notably, while significant research efforts have been devoted to many prevalent languages, Korean Sign Language (KSL) remains relatively underexplored, particularly concerning dynamic signs and generalizability. The scarcity of KSL datasets has exacerbated this limitation, hindering progress. Furthermore, most KSL research predominantly relies on static image-based datasets for recognition, leading to diminished accuracy and the inability to detect dynamic sign words. Furthermore, most KSL research predominantly relies on static image-based datasets for recognition, leading to diminished accuracy and the inability to detect dynamic sign words. Additionally, existing KSL recognition systems grapple with suboptimal performance accuracy and heightened computational complexity, further emphasizing the existing research gap. To address these formidable challenges, we propose a robust dynamic KSL recognition system that combines a skeleton-based Graph Convolution network with an attention-based neural network, effectively bridging the gap. Our solution employs a two-stream deep learning network to navigate the intricacies of dynamic signs, enhancing accuracy by effectively handling non-connected joint skeleton features. In this system, the first stream meticulously processes 47 pose landmarks using the Graph Convolutional Network (GCN) to extract graph-based features. These features are meticulously refined through a channel attention module and a general CNN, enhancing their temporal context. Concurrently, the second stream focuses on joint motion-based features, employing a similar approach. Subsequently, these distinct features from both streams are harmoniously integrated and channelled through a classification module to achieve precise sign-word recognition.
 
-Thank you very much to  Mr Chen for opening their repository, we inspired by yan code and thought to update and modifying it "[https://github.com/yuxiaochen1103/DG-STA](https://github.com/yysijie/st-gcn)"
-# Dynamic Korean Sign Language Recognition Using Pose Estimation Based and Attention-Based Neural Network
+Thank you very much to  Mr Chen for opening their repository; we inspired by yan code and thought to update and modify it "[https://github.com/yuxiaochen1103/DG-STA](https://github.com/yysijie/st-gcn)"
+# Dynamic Korean Sign Language Recognition Using Pose Estimation-Based and Attention-Based Neural Network
     IEEE Access. 
     LicenseCC BY 4.0
-    Labs: Pattern Processing LabAbu Saleh Musa Miah's Lab
+    Labs: Pattern Processing Lab
+  
 ## Introduction
 Coming soon .....................
 
@@ -15,10 +16,6 @@ Coming soon .....................
 We implement and run the code in two environments:
 GPU Pytorch
 Collaborator
-
-I experimented for 
-a.KSL dataset at HPE GPU Machine
-b.Hirooka PC
 
 
 
